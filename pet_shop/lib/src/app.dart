@@ -47,6 +47,7 @@ class MyApp extends StatelessWidget {
           ],
 
           // Use AppLocalizations to configure the correct application title
+
           // depending on the user's locale.
           //
           // The appTitle is defined in .arb files found in the localization
