@@ -95,9 +95,12 @@ class _CameraScreenState extends State<CameraScreen> {
                             color: Colors.white,
                           ),
                         ),
-                        Icon(
-                          Icons.qr_code_scanner_rounded,
-                          color: Colors.white,
+                        Padding(
+                          padding: const EdgeInsets.all(10.0),
+                          child: Icon(
+                            Icons.qr_code_scanner_rounded,
+                            color: Colors.white,
+                          ),
                         )
                       ],
                     ),
